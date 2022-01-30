@@ -1,0 +1,8 @@
+{
+  "name": "testing-advanced-js-stuff",
+  "description": "This project was created to test some advanced and rarely used things in JavaScript.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": "Luan Eduardo da Costa"
+}
