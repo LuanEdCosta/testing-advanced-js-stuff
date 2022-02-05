@@ -1,7 +1,7 @@
 const { getExampleNumber, runExample } = require("../utils/Example.utils.js");
 
 /**
- * WeakMap uses the memory address of the key object to gey the value.
+ * WeakMap uses the memory address of the key object to get the value.
  * You cannot see the keys and values logging the WeakMap instance.
  */
 const basicExample = () => {
