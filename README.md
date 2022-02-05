@@ -17,6 +17,18 @@ Items with :white_check_mark: were already tested.
 
 :point_right: [Click here to find more things to test](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
+## :play_or_pause_button: How to run examples
+
+With the most recent Node.js version installed, run:
+
+```shell
+# Syntax:
+# node src/examples/$FILE_NAME $EXAMPLE_NUMBER
+
+# Example:
+node src/examples/Proxy.example.js 1
+```
+
 ## :man: Author
 
 Luan Eduardo da Costa | [Follow Me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
