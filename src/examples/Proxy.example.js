@@ -10,7 +10,7 @@ const spiderMan = {
 /**
  * Example 1:
  * Nobody should know that Peter is the Spider Man.
- * So when you try to access its name the heroName is returned instead.
+ * So when you try to access its name, the heroName is returned instead.
  */
 const basicExample = () => {
   const handlers = {
