@@ -3,7 +3,7 @@ const { EOL } = require("os");
 const getExampleNumber = () => {
   const args = process.argv.slice(2);
   const [exampleNumber] = args;
-  return exampleNumber;
+  return exampleNumber || 1;
 };
 
 const runExample = (exampleNumber, examples = {}) => {
