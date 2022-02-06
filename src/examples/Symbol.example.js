@@ -27,6 +27,23 @@ const differentSymbolsExample = () => {
 };
 
 /**
+ * Sometimes Symbols are hidden.
+ */
+const objectKeysWithSymbols = () => {
+  const symbol = Symbol("symbol");
+  const data = {};
+  data[symbol] = "Data 1";
+  data["symbol"] = "Data 2";
+  console.log(data);
+  console.log(JSON.stringify(data));
+  console.log(Object.keys(data));
+  console.log(Object.values(data));
+  console.log(Reflect.ownKeys(data));
+  console.log(symbol in data);
+  console.log("symbol" in data);
+};
+
+/**
  * All symbol properties and functions.
  */
 const symbolDataExample = () => {
@@ -41,4 +58,5 @@ runExample(getExampleNumber(), {
   1: basicExample,
   2: differentSymbolsExample,
   3: symbolDataExample,
+  4: objectKeysWithSymbols,
 });
