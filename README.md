@@ -4,7 +4,7 @@ This project was created to test some advanced and rarely used things in JavaScr
 
 ## :test_tube: What to Test
 
-Items with :white_check_mark: were already tested.
+Items with :white_check_mark: have been tested.
 
 - [x] [FinalizationRegistry](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry)
 - [x] [Reflect](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
@@ -19,7 +19,7 @@ Items with :white_check_mark: were already tested.
 
 ## :play_or_pause_button: How to run examples
 
-With the most recent Node.js version installed, run:
+With the latest Node.js version installed, run:
 
 ```shell
 # Syntax:
